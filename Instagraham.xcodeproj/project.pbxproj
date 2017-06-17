@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC62C34D1EF58D8100F30C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */; };
+		AC62C34F1EF58D8100F30C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C34E1EF58D8100F30C3C /* ViewController.swift */; };
+		AC62C3521EF58D8100F30C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC62C3501EF58D8100F30C3C /* Main.storyboard */; };
+		AC62C3551EF58D8100F30C3C /* Instagraham.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC62C3531EF58D8100F30C3C /* Instagraham.xcdatamodeld */; };
+		AC62C3571EF58D8100F30C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC62C3561EF58D8100F30C3C /* Assets.xcassets */; };
+		AC62C35A1EF58D8100F30C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC62C3581EF58D8100F30C3C /* LaunchScreen.storyboard */; };
+		AC62C3651EF58D8200F30C3C /* InstagrahamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C3641EF58D8200F30C3C /* InstagrahamTests.swift */; };
+		AC62C3701EF58D8200F30C3C /* InstagrahamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C36F1EF58D8200F30C3C /* InstagrahamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC62C3611EF58D8200F30C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC62C3411EF58D8100F30C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC62C3481EF58D8100F30C3C;
+			remoteInfo = Instagraham;
+		};
+		AC62C36C1EF58D8200F30C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC62C3411EF58D8100F30C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC62C3481EF58D8100F30C3C;
+			remoteInfo = Instagraham;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC62C3491EF58D8100F30C3C /* Instagraham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagraham.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC62C34E1EF58D8100F30C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC62C3511EF58D8100F30C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC62C3541EF58D8100F30C3C /* Instagraham.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagraham.xcdatamodel; sourceTree = "<group>"; };
+		AC62C3561EF58D8100F30C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC62C3591EF58D8100F30C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC62C35B1EF58D8100F30C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC62C3601EF58D8200F30C3C /* InstagrahamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagrahamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC62C3641EF58D8200F30C3C /* InstagrahamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagrahamTests.swift; sourceTree = "<group>"; };
+		AC62C3661EF58D8200F30C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC62C36B1EF58D8200F30C3C /* InstagrahamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagrahamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC62C36F1EF58D8200F30C3C /* InstagrahamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagrahamUITests.swift; sourceTree = "<group>"; };
+		AC62C3711EF58D8200F30C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC62C3461EF58D8100F30C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C35D1EF58D8200F30C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C3681EF58D8200F30C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC62C3401EF58D8100F30C3C = {
+			isa = PBXGroup;
+			children = (
+				AC62C34B1EF58D8100F30C3C /* Instagraham */,
+				AC62C3631EF58D8200F30C3C /* InstagrahamTests */,
+				AC62C36E1EF58D8200F30C3C /* InstagrahamUITests */,
+				AC62C34A1EF58D8100F30C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC62C34A1EF58D8100F30C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC62C3491EF58D8100F30C3C /* Instagraham.app */,
+				AC62C3601EF58D8200F30C3C /* InstagrahamTests.xctest */,
+				AC62C36B1EF58D8200F30C3C /* InstagrahamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC62C34B1EF58D8100F30C3C /* Instagraham */ = {
+			isa = PBXGroup;
+			children = (
+				AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */,
+				AC62C34E1EF58D8100F30C3C /* ViewController.swift */,
+				AC62C3501EF58D8100F30C3C /* Main.storyboard */,
+				AC62C3561EF58D8100F30C3C /* Assets.xcassets */,
+				AC62C3581EF58D8100F30C3C /* LaunchScreen.storyboard */,
+				AC62C35B1EF58D8100F30C3C /* Info.plist */,
+				AC62C3531EF58D8100F30C3C /* Instagraham.xcdatamodeld */,
+			);
+			path = Instagraham;
+			sourceTree = "<group>";
+		};
+		AC62C3631EF58D8200F30C3C /* InstagrahamTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC62C3641EF58D8200F30C3C /* InstagrahamTests.swift */,
+				AC62C3661EF58D8200F30C3C /* Info.plist */,
+			);
+			path = InstagrahamTests;
+			sourceTree = "<group>";
+		};
+		AC62C36E1EF58D8200F30C3C /* InstagrahamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC62C36F1EF58D8200F30C3C /* InstagrahamUITests.swift */,
+				AC62C3711EF58D8200F30C3C /* Info.plist */,
+			);
+			path = InstagrahamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC62C3481EF58D8100F30C3C /* Instagraham */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC62C3741EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "Instagraham" */;
+			buildPhases = (
+				AC62C3451EF58D8100F30C3C /* Sources */,
+				AC62C3461EF58D8100F30C3C /* Frameworks */,
+				AC62C3471EF58D8100F30C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagraham;
+			productName = Instagraham;
+			productReference = AC62C3491EF58D8100F30C3C /* Instagraham.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC62C35F1EF58D8200F30C3C /* InstagrahamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC62C3771EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "InstagrahamTests" */;
+			buildPhases = (
+				AC62C35C1EF58D8200F30C3C /* Sources */,
+				AC62C35D1EF58D8200F30C3C /* Frameworks */,
+				AC62C35E1EF58D8200F30C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC62C3621EF58D8200F30C3C /* PBXTargetDependency */,
+			);
+			name = InstagrahamTests;
+			productName = InstagrahamTests;
+			productReference = AC62C3601EF58D8200F30C3C /* InstagrahamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC62C36A1EF58D8200F30C3C /* InstagrahamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC62C37A1EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "InstagrahamUITests" */;
+			buildPhases = (
+				AC62C3671EF58D8200F30C3C /* Sources */,
+				AC62C3681EF58D8200F30C3C /* Frameworks */,
+				AC62C3691EF58D8200F30C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC62C36D1EF58D8200F30C3C /* PBXTargetDependency */,
+			);
+			name = InstagrahamUITests;
+			productName = InstagrahamUITests;
+			productReference = AC62C36B1EF58D8200F30C3C /* InstagrahamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC62C3411EF58D8100F30C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					AC62C3481EF58D8100F30C3C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC62C35F1EF58D8200F30C3C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC62C3481EF58D8100F30C3C;
+					};
+					AC62C36A1EF58D8200F30C3C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC62C3481EF58D8100F30C3C;
+					};
+				};
+			};
+			buildConfigurationList = AC62C3441EF58D8100F30C3C /* Build configuration list for PBXProject "Instagraham" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC62C3401EF58D8100F30C3C;
+			productRefGroup = AC62C34A1EF58D8100F30C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC62C3481EF58D8100F30C3C /* Instagraham */,
+				AC62C35F1EF58D8200F30C3C /* InstagrahamTests */,
+				AC62C36A1EF58D8200F30C3C /* InstagrahamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC62C3471EF58D8100F30C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62C35A1EF58D8100F30C3C /* LaunchScreen.storyboard in Resources */,
+				AC62C3571EF58D8100F30C3C /* Assets.xcassets in Resources */,
+				AC62C3521EF58D8100F30C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C35E1EF58D8200F30C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C3691EF58D8200F30C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC62C3451EF58D8100F30C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62C3551EF58D8100F30C3C /* Instagraham.xcdatamodeld in Sources */,
+				AC62C34F1EF58D8100F30C3C /* ViewController.swift in Sources */,
+				AC62C34D1EF58D8100F30C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C35C1EF58D8200F30C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62C3651EF58D8200F30C3C /* InstagrahamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC62C3671EF58D8200F30C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62C3701EF58D8200F30C3C /* InstagrahamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC62C3621EF58D8200F30C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC62C3481EF58D8100F30C3C /* Instagraham */;
+			targetProxy = AC62C3611EF58D8200F30C3C /* PBXContainerItemProxy */;
+		};
+		AC62C36D1EF58D8200F30C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC62C3481EF58D8100F30C3C /* Instagraham */;
+			targetProxy = AC62C36C1EF58D8200F30C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC62C3501EF58D8100F30C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC62C3511EF58D8100F30C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC62C3581EF58D8100F30C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC62C3591EF58D8100F30C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC62C3721EF58D8200F30C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC62C3731EF58D8200F30C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC62C3751EF58D8200F30C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instagraham/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.Instagraham;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC62C3761EF58D8200F30C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instagraham/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.Instagraham;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC62C3781EF58D8200F30C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstagrahamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.InstagrahamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagraham.app/Instagraham";
+			};
+			name = Debug;
+		};
+		AC62C3791EF58D8200F30C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstagrahamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.InstagrahamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagraham.app/Instagraham";
+			};
+			name = Release;
+		};
+		AC62C37B1EF58D8200F30C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InstagrahamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.InstagrahamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Instagraham;
+			};
+			name = Debug;
+		};
+		AC62C37C1EF58D8200F30C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InstagrahamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eoyproject.InstagrahamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Instagraham;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC62C3441EF58D8100F30C3C /* Build configuration list for PBXProject "Instagraham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC62C3721EF58D8200F30C3C /* Debug */,
+				AC62C3731EF58D8200F30C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC62C3741EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "Instagraham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC62C3751EF58D8200F30C3C /* Debug */,
+				AC62C3761EF58D8200F30C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC62C3771EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "InstagrahamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC62C3781EF58D8200F30C3C /* Debug */,
+				AC62C3791EF58D8200F30C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC62C37A1EF58D8200F30C3C /* Build configuration list for PBXNativeTarget "InstagrahamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC62C37B1EF58D8200F30C3C /* Debug */,
+				AC62C37C1EF58D8200F30C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC62C3531EF58D8100F30C3C /* Instagraham.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC62C3541EF58D8100F30C3C /* Instagraham.xcdatamodel */,
+			);
+			currentVersion = AC62C3541EF58D8100F30C3C /* Instagraham.xcdatamodel */;
+			path = Instagraham.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC62C3411EF58D8100F30C3C /* Project object */;
+}
