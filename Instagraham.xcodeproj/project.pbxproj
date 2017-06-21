@@ -16,6 +16,7 @@
 		AC25E5161EF9DE8100FD056C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E5151EF9DE8100FD056C /* ProfileVC.swift */; };
 		AC25E5181EF9DEC000FD056C /* ResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E5171EF9DEC000FD056C /* ResetVC.swift */; };
 		AC25E51A1EF9E49D00FD056C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E5191EF9E49D00FD056C /* LoginVC.swift */; };
+		AC25E51C1EFA083300FD056C /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E51B1EFA083300FD056C /* UsersVC.swift */; };
 		AC62C34D1EF58D8100F30C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */; };
 		AC62C3521EF58D8100F30C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC62C3501EF58D8100F30C3C /* Main.storyboard */; };
 		AC62C3551EF58D8100F30C3C /* Instagraham.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC62C3531EF58D8100F30C3C /* Instagraham.xcdatamodeld */; };
@@ -56,6 +57,7 @@
 		AC25E5151EF9DE8100FD056C /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		AC25E5171EF9DEC000FD056C /* ResetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetVC.swift; sourceTree = "<group>"; };
 		AC25E5191EF9E49D00FD056C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AC25E51B1EFA083300FD056C /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
 		AC62C3491EF58D8100F30C3C /* Instagraham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagraham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC62C3511EF58D8100F30C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				AC25E5131EF9DE5000FD056C /* WallVC.swift */,
 				AC25E5151EF9DE8100FD056C /* ProfileVC.swift */,
 				AC25E5171EF9DEC000FD056C /* ResetVC.swift */,
+				AC25E51B1EFA083300FD056C /* UsersVC.swift */,
 				AC62C3561EF58D8100F30C3C /* Assets.xcassets */,
 				AC62C3581EF58D8100F30C3C /* LaunchScreen.storyboard */,
 				AC62C35B1EF58D8100F30C3C /* Info.plist */,
@@ -479,6 +482,7 @@
 				AC25E5161EF9DE8100FD056C /* ProfileVC.swift in Sources */,
 				AC25E4F81EF5A81300FD056C /* SignUpVC.swift in Sources */,
 				AC25E51A1EF9E49D00FD056C /* LoginVC.swift in Sources */,
+				AC25E51C1EFA083300FD056C /* UsersVC.swift in Sources */,
 				AC62C3551EF58D8100F30C3C /* Instagraham.xcdatamodeld in Sources */,
 				AC62C34D1EF58D8100F30C3C /* AppDelegate.swift in Sources */,
 				AC25E5181EF9DEC000FD056C /* ResetVC.swift in Sources */,
