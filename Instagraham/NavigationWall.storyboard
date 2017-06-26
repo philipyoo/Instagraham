@@ -20,30 +20,31 @@
                     <view key="view" contentMode="scaleToFill" id="5XA-1z-vhD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-TJ-FpW">
-                                <rect key="frame" x="232" y="76" width="79" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wall" id="vQv-iw-uRE">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="GKI-D1-YYu">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8T6-TJ-FpW">
+                                <rect key="frame" x="280" y="7" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="LOGOUT"/>
+                                <state key="normal" title="Logout"/>
                                 <connections>
                                     <action selector="logOutTapped:" destination="YoU-cL-uca" eventType="touchUpInside" id="Pjf-U3-887"/>
                                 </connections>
                             </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Wall" id="vQv-iw-uRE"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YH-Bk-JfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="839.73013493253382"/>
         </scene>
-        <!--Item 1-->
+        <!--Wall-->
         <scene sceneID="2QH-qZ-K6l">
             <objects>
                 <navigationController storyboardIdentifier="NavigationWall" automaticallyAdjustsScrollViewInsets="NO" id="l9h-Gx-aTA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="v53-Mq-rto"/>
+                    <tabBarItem key="tabBarItem" title="Wall" image="Graham" id="v53-Mq-rto"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DGu-no-zoF">
@@ -60,4 +61,7 @@
             <point key="canvasLocation" x="-90.400000000000006" y="839.73013493253382"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Graham" width="32" height="32"/>
+    </resources>
 </document>

@@ -29,11 +29,11 @@
             </objects>
             <point key="canvasLocation" x="2429.5999999999999" y="907.1964017991005"/>
         </scene>
-        <!--Item-->
+        <!--Add User-->
         <scene sceneID="WGA-jM-c1V">
             <objects>
                 <navigationController storyboardIdentifier="NavigationUsers" automaticallyAdjustsScrollViewInsets="NO" id="KQ2-Tb-DYx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="URp-8b-8GN"/>
+                    <tabBarItem key="tabBarItem" title="Add User" image="AddUser" id="URp-8b-8GN"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PWT-Ld-lN3">
@@ -50,4 +50,7 @@
             <point key="canvasLocation" x="1488.8" y="906.29685157421295"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AddUser" width="32" height="32"/>
+    </resources>
 </document>
