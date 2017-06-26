@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NavigationWall-->
+        <!--Wall-->
         <scene sceneID="uNO-Hj-mwe">
             <objects>
-                <viewController storyboardIdentifier="NavWall" title="NavigationWall" id="YoU-cL-uca" customClass="WallVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavWall" id="YoU-cL-uca" customClass="WallVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZaZ-nv-qMF"/>
                         <viewControllerLayoutGuide type="bottom" id="02l-Xf-HIf"/>
@@ -20,37 +20,31 @@
                     <view key="view" contentMode="scaleToFill" id="5XA-1z-vhD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFC-fW-TsQ">
-                                <rect key="frame" x="189" y="323" width="33" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wall" id="bI3-8c-uMD">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="DZS-Fz-zaC">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8T6-TJ-FpW">
+                                <rect key="frame" x="280" y="7" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-TJ-FpW">
-                                <rect key="frame" x="232" y="76" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="LOGOUT"/>
+                                <state key="normal" title="Logout"/>
                                 <connections>
                                     <action selector="logOutTapped:" destination="YoU-cL-uca" eventType="touchUpInside" id="Pjf-U3-887"/>
                                 </connections>
                             </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="bI3-8c-uMD"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YH-Bk-JfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="839.73013493253382"/>
         </scene>
-        <!--Item 1-->
+        <!--Wall-->
         <scene sceneID="lkJ-C7-GZ0">
             <objects>
                 <navigationController storyboardIdentifier="NavigationWall" automaticallyAdjustsScrollViewInsets="NO" id="RCo-gq-Mh2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="v53-Mq-rto"/>
+                    <tabBarItem key="tabBarItem" title="Wall" image="Graham" id="v53-Mq-rto"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rMz-Aj-UET">
@@ -67,4 +61,7 @@
             <point key="canvasLocation" x="-90.400000000000006" y="839.73013493253382"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Graham" width="32" height="32"/>
+    </resources>
 </document>

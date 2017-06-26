@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NavigationProfile-->
+        <!--Profile-->
         <scene sceneID="LSl-tr-JqO">
             <objects>
-                <viewController storyboardIdentifier="NavProfile" title="NavigationProfile" id="L3i-iY-xh6" customClass="ProfileVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavProfile" id="L3i-iY-xh6" customClass="ProfileVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XMI-GR-AqT"/>
                         <viewControllerLayoutGuide type="bottom" id="4JA-Aq-qOr"/>
@@ -20,29 +20,20 @@
                     <view key="view" contentMode="scaleToFill" id="rHh-I8-SF8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLm-ti-sW8">
-                                <rect key="frame" x="142" y="239" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1R8-9P-VLm"/>
+                    <navigationItem key="navigationItem" title="Profile" id="1R8-9P-VLm"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gd5-f8-dRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2588" y="856.82158920539734"/>
         </scene>
-        <!--Item 2-->
+        <!--Profile-->
         <scene sceneID="ZrG-cy-ZYU">
             <objects>
                 <navigationController storyboardIdentifier="NavigationProfile" automaticallyAdjustsScrollViewInsets="NO" id="41X-aE-HP4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="DXS-nt-PSI"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Profile" id="DXS-nt-PSI"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tQY-ok-qnH">
@@ -59,4 +50,7 @@
             <point key="canvasLocation" x="1648.8" y="856.82158920539734"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Profile" width="32" height="26"/>
+    </resources>
 </document>

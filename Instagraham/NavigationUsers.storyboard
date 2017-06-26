@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NavigationUsers-->
+        <!--Users-->
         <scene sceneID="lBa-wf-KSe">
             <objects>
-                <viewController storyboardIdentifier="NavUsers" title="NavigationUsers" id="sU6-er-CV0" customClass="UsersVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavUsers" id="sU6-er-CV0" customClass="UsersVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V8j-3Z-pOY"/>
                         <viewControllerLayoutGuide type="bottom" id="fnV-zt-5qe"/>
@@ -20,29 +20,20 @@
                     <view key="view" contentMode="scaleToFill" id="k44-e9-8DM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Users" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yb0-Lh-rEh">
-                                <rect key="frame" x="224" y="146" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XIm-Fu-g3A"/>
+                    <navigationItem key="navigationItem" title="Users" id="XIm-Fu-g3A"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Gl-d2-O1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2828" y="906.29685157421295"/>
         </scene>
-        <!--Item-->
+        <!--Add User-->
         <scene sceneID="dBU-uu-hmR">
             <objects>
                 <navigationController storyboardIdentifier="NavigationUsers" automaticallyAdjustsScrollViewInsets="NO" id="lgu-Uw-wnL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="URp-8b-8GN"/>
+                    <tabBarItem key="tabBarItem" title="Add User" image="AddUser" id="URp-8b-8GN"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="p7J-sp-UoZ">
@@ -59,4 +50,7 @@
             <point key="canvasLocation" x="1888.8" y="906.29685157421295"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AddUser" width="48" height="48"/>
+    </resources>
 </document>
