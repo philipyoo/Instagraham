@@ -9,98 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NavigationUsers-->
-        <scene sceneID="lBa-wf-KSe">
-            <objects>
-                <viewController storyboardIdentifier="NavUsers" title="NavigationUsers" id="sU6-er-CV0" customClass="UsersVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="V8j-3Z-pOY"/>
-                        <viewControllerLayoutGuide type="bottom" id="fnV-zt-5qe"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="k44-e9-8DM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Users" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yb0-Lh-rEh">
-                                <rect key="frame" x="224" y="146" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="URp-8b-8GN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Gl-d2-O1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="950" y="907"/>
-        </scene>
-        <!--NavigationProfile-->
-        <scene sceneID="LSl-tr-JqO">
-            <objects>
-                <viewController storyboardIdentifier="NavProfile" title="NavigationProfile" id="L3i-iY-xh6" customClass="ProfileVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XMI-GR-AqT"/>
-                        <viewControllerLayoutGuide type="bottom" id="4JA-Aq-qOr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rHh-I8-SF8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLm-ti-sW8">
-                                <rect key="frame" x="142" y="239" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="DXS-nt-PSI"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gd5-f8-dRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2062" y="840"/>
-        </scene>
-        <!--NavigationWall-->
-        <scene sceneID="uNO-Hj-mwe">
-            <objects>
-                <viewController storyboardIdentifier="NavWall" title="NavigationWall" id="YoU-cL-uca" customClass="WallVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZaZ-nv-qMF"/>
-                        <viewControllerLayoutGuide type="bottom" id="02l-Xf-HIf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5XA-1z-vhD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFC-fW-TsQ">
-                                <rect key="frame" x="189" y="323" width="33" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-TJ-FpW">
-                                <rect key="frame" x="232" y="76" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="LOGOUT"/>
-                                <connections>
-                                    <action selector="logOutTapped:" destination="YoU-cL-uca" eventType="touchUpInside" id="Pjf-U3-887"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="v53-Mq-rto"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3YH-Bk-JfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-90.400000000000006" y="839.73013493253382"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AYC-10-jLk">
             <objects>
@@ -111,14 +19,68 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="YoU-cL-uca" kind="relationship" relationship="viewControllers" id="3oI-Rj-ynw"/>
-                        <segue destination="sU6-er-CV0" kind="relationship" relationship="viewControllers" id="VbX-Hh-sRd"/>
-                        <segue destination="L3i-iY-xh6" kind="relationship" relationship="viewControllers" id="FSf-bP-0L6"/>
+                        <segue destination="My4-uc-oFG" kind="relationship" relationship="viewControllers" id="3oI-Rj-ynw"/>
+                        <segue destination="Gha-Ib-3z8" kind="relationship" relationship="viewControllers" id="VbX-Hh-sRd"/>
+                        <segue destination="7Rc-md-2pv" kind="relationship" relationship="viewControllers" id="FSf-bP-0L6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ceU-Y1-GSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="950" y="104"/>
+        </scene>
+        <!--NavigationWall-->
+        <scene sceneID="ufF-h7-bTB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NavigationWall" referencedIdentifier="NavigationWall" id="My4-uc-oFG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eHn-Ye-PeN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dR1-I4-ZvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576" y="551"/>
+        </scene>
+        <!--NavWall-->
+        <scene sceneID="FgF-A7-kNb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="NavWall" storyboardName="NavigationWall" referencedIdentifier="NavWall" id="ZQj-XI-PZ4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0H-0p-uJA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="618"/>
+        </scene>
+        <!--NavigationUsers-->
+        <scene sceneID="Qpd-mo-YaI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NavigationUsers" referencedIdentifier="NavigationUsers" id="Gha-Ib-3z8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dXW-OY-ubV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pTy-hV-sji" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="551"/>
+        </scene>
+        <!--NavUsers-->
+        <scene sceneID="mJx-HP-vfK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="NavUsers" storyboardName="NavigationUsers" referencedIdentifier="NavUsers" id="w79-Mf-XCs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0c9-qj-jCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="617"/>
+        </scene>
+        <!--NavigationProfile-->
+        <scene sceneID="SnL-Eh-2de">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NavigationProfile" referencedIdentifier="NavigationProfile" id="7Rc-md-2pv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="xDu-Ou-me8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yi3-4X-SwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="551"/>
+        </scene>
+        <!--NavProfile-->
+        <scene sceneID="WYa-hS-dBt">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="NavProfile" storyboardName="NavigationProfile" referencedIdentifier="NavProfile" id="PXk-Td-tYe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ruZ-pd-O1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="618"/>
         </scene>
     </scenes>
 </document>
