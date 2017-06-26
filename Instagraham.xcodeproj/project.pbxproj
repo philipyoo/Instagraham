@@ -17,9 +17,9 @@
 		AC25E5181EF9DEC000FD056C /* ResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E5171EF9DEC000FD056C /* ResetVC.swift */; };
 		AC25E51A1EF9E49D00FD056C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E5191EF9E49D00FD056C /* LoginVC.swift */; };
 		AC25E51C1EFA083300FD056C /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25E51B1EFA083300FD056C /* UsersVC.swift */; };
-		AC25E5221EFF782100FD056C /* NavigationWall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5211EFF782100FD056C /* NavigationWall.storyboard */; };
-		AC25E5261EFF790100FD056C /* NavigationUsers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5251EFF790100FD056C /* NavigationUsers.storyboard */; };
-		AC25E5281EFF795100FD056C /* NavigationProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5271EFF795100FD056C /* NavigationProfile.storyboard */; };
+		AC25E5341F00D99B00FD056C /* NavigationWall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5331F00D99B00FD056C /* NavigationWall.storyboard */; };
+		AC25E5361F00D9DB00FD056C /* NavigationUsers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5351F00D9DB00FD056C /* NavigationUsers.storyboard */; };
+		AC25E5381F00DA2000FD056C /* NavigationProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25E5371F00DA2000FD056C /* NavigationProfile.storyboard */; };
 		AC62C34D1EF58D8100F30C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */; };
 		AC62C3521EF58D8100F30C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC62C3501EF58D8100F30C3C /* Main.storyboard */; };
 		AC62C3551EF58D8100F30C3C /* Instagraham.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC62C3531EF58D8100F30C3C /* Instagraham.xcdatamodeld */; };
@@ -61,9 +61,9 @@
 		AC25E5171EF9DEC000FD056C /* ResetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetVC.swift; sourceTree = "<group>"; };
 		AC25E5191EF9E49D00FD056C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		AC25E51B1EFA083300FD056C /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
-		AC25E5211EFF782100FD056C /* NavigationWall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationWall.storyboard; sourceTree = "<group>"; };
-		AC25E5251EFF790100FD056C /* NavigationUsers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationUsers.storyboard; sourceTree = "<group>"; };
-		AC25E5271EFF795100FD056C /* NavigationProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationProfile.storyboard; sourceTree = "<group>"; };
+		AC25E5331F00D99B00FD056C /* NavigationWall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationWall.storyboard; sourceTree = "<group>"; };
+		AC25E5351F00D9DB00FD056C /* NavigationUsers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationUsers.storyboard; sourceTree = "<group>"; };
+		AC25E5371F00DA2000FD056C /* NavigationProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationProfile.storyboard; sourceTree = "<group>"; };
 		AC62C3491EF58D8100F30C3C /* Instagraham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagraham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC62C34C1EF58D8100F30C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC62C3511EF58D8100F30C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,9 +129,9 @@
 			children = (
 				AC62C3501EF58D8100F30C3C /* Main.storyboard */,
 				AC25E50F1EF9D1C700FD056C /* TabBarController.storyboard */,
-				AC25E5271EFF795100FD056C /* NavigationProfile.storyboard */,
-				AC25E5251EFF790100FD056C /* NavigationUsers.storyboard */,
-				AC25E5211EFF782100FD056C /* NavigationWall.storyboard */,
+				AC25E5371F00DA2000FD056C /* NavigationProfile.storyboard */,
+				AC25E5351F00D9DB00FD056C /* NavigationUsers.storyboard */,
+				AC25E5331F00D99B00FD056C /* NavigationWall.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -325,9 +325,9 @@
 				AC62C37E1EF58FB000F30C3C /* GoogleService-Info.plist in Resources */,
 				AC25E5101EF9D1C700FD056C /* TabBarController.storyboard in Resources */,
 				AC62C3571EF58D8100F30C3C /* Assets.xcassets in Resources */,
-				AC25E5281EFF795100FD056C /* NavigationProfile.storyboard in Resources */,
-				AC25E5261EFF790100FD056C /* NavigationUsers.storyboard in Resources */,
-				AC25E5221EFF782100FD056C /* NavigationWall.storyboard in Resources */,
+				AC25E5381F00DA2000FD056C /* NavigationProfile.storyboard in Resources */,
+				AC25E5361F00D9DB00FD056C /* NavigationUsers.storyboard in Resources */,
+				AC25E5341F00D99B00FD056C /* NavigationWall.storyboard in Resources */,
 				AC62C3521EF58D8100F30C3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

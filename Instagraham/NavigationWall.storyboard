@@ -12,7 +12,7 @@
         <!--Wall-->
         <scene sceneID="uNO-Hj-mwe">
             <objects>
-                <viewController storyboardIdentifier="NavWall" title="Wall" id="YoU-cL-uca" customClass="WallVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavWall" id="YoU-cL-uca" customClass="WallVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZaZ-nv-qMF"/>
                         <viewControllerLayoutGuide type="bottom" id="02l-Xf-HIf"/>
@@ -22,8 +22,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Wall" id="vQv-iw-uRE">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="GKI-D1-YYu">
+                    <navigationItem key="navigationItem" title="Wall" id="SOs-hb-NaN">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="kgg-No-ij4">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8T6-TJ-FpW">
                                 <rect key="frame" x="280" y="7" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,25 +38,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YH-Bk-JfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848.79999999999995" y="839.73013493253382"/>
+            <point key="canvasLocation" x="598" y="840"/>
         </scene>
         <!--Wall-->
-        <scene sceneID="2QH-qZ-K6l">
+        <scene sceneID="8cD-T6-XXd">
             <objects>
-                <navigationController storyboardIdentifier="NavigationWall" automaticallyAdjustsScrollViewInsets="NO" id="l9h-Gx-aTA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationWall" automaticallyAdjustsScrollViewInsets="NO" id="Wer-iZ-X6Q" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Wall" image="Graham" id="v53-Mq-rto"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DGu-no-zoF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8wJ-aa-hm0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="YoU-cL-uca" kind="relationship" relationship="rootViewController" id="b8n-D3-rDb"/>
+                        <segue destination="YoU-cL-uca" kind="relationship" relationship="rootViewController" id="KO8-uV-n9z"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Our-OL-KIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1I-rZ-U9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-90.400000000000006" y="839.73013493253382"/>
         </scene>

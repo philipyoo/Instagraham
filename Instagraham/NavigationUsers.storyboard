@@ -12,7 +12,7 @@
         <!--Users-->
         <scene sceneID="lBa-wf-KSe">
             <objects>
-                <viewController storyboardIdentifier="NavUsers" title="Users" id="sU6-er-CV0" customClass="UsersVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavUsers" id="sU6-er-CV0" customClass="UsersVC" customModule="Instagraham" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V8j-3Z-pOY"/>
                         <viewControllerLayoutGuide type="bottom" id="fnV-zt-5qe"/>
@@ -22,35 +22,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Users" id="uJY-ws-0Wf"/>
+                    <navigationItem key="navigationItem" title="Users" id="xzb-AV-hTb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Gl-d2-O1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2429.5999999999999" y="907.1964017991005"/>
+            <point key="canvasLocation" x="1647" y="890"/>
         </scene>
         <!--Add User-->
-        <scene sceneID="WGA-jM-c1V">
+        <scene sceneID="4c2-J0-qh2">
             <objects>
-                <navigationController storyboardIdentifier="NavigationUsers" automaticallyAdjustsScrollViewInsets="NO" id="KQ2-Tb-DYx" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationUsers" automaticallyAdjustsScrollViewInsets="NO" id="ZwG-n1-Bz1" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Add User" image="AddUser" id="URp-8b-8GN"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PWT-Ld-lN3">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P0z-PR-yod">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="sU6-er-CV0" kind="relationship" relationship="rootViewController" id="hgu-W9-qDL"/>
+                        <segue destination="sU6-er-CV0" kind="relationship" relationship="rootViewController" id="51s-y0-mfz"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U5C-Pj-cOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05f-7J-JlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488.8" y="906.29685157421295"/>
+            <point key="canvasLocation" x="949.60000000000002" y="890.10494752623697"/>
         </scene>
     </scenes>
     <resources>
-        <image name="AddUser" width="32" height="32"/>
+        <image name="AddUser" width="48" height="48"/>
     </resources>
 </document>
